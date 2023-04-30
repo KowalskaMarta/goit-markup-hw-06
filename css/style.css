@@ -173,6 +173,37 @@ body {
 .is-hidden .modal {
   transform: scale(2);
 }
+.form-labels {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  max-width: 448px;
+  margin: 0 auto;
+}
+.modal-title {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.15;
+  text-align: center;
+  padding-top: 40px;
+}
+.label-title {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.17;
+  color: var(--description-color);
+  padding-top: 12px;
+}
+.modal-label {
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  border-radius: 4px;
+  display: inline-flex;
+  height: 40px;
+}
+.icon-form {
+  fill: var(--main-font-color);
+}
 .description-name {
   font-size: 14px;
   color: var(--main-font-color);
@@ -644,8 +675,7 @@ img {
   padding-right: 24px;
   padding-bottom: 10px;
   width: 200px;
-  display: flex;
-  justify-content: space-between;
+  display: inline-flex;
 }
 .icon-send {
   justify-content: space-between;
