@@ -71,31 +71,59 @@
                   <form class="form-labels">
                     <label class="modal-label">
                       <span class="label-title">Imię</span>
-                      <input class="form-input" type="text" name="username">
+                      <input class="form-input" type="text" name="username" />
                       <svg class="icon-form" width="12" height="12">
                         <use href="./images/icons.svg#icon-person"></use>
                       </svg>
                     </label>
                     <label class="modal-label">
                       <span class="label-title">Telefon</span>
-                      <input class="form-input" type="text" name="username">
+                      <input class="form-input" type="text" name="username" />
                       <svg class="icon-form" width="13" height="13">
                         <use href="./images/icons.svg#icon-tel"></use>
                       </svg>
                     </label>
                     <label class="modal-label">
                       <span class="label-title">Email</span>
-                      <input class="form-input" type="text" name="username">
-				<svg class="icon-form" width="15" height="12">
+                      <input class="form-input" type="text" name="username" />
+                      <svg class="icon-form" width="15" height="12">
                         <use href="./images/icons.svg#icon-mail2"></use>
                       </svg>
                     </label>
                     <label class="modal-label">
                       <span class="label-title">Komentarz</span>
-                      <input class="kom-input" type="text" name="username" placeholder="Wprowadź tekst">
+                      <textarea
+                        class="kom-input"
+                        name="feedback"
+                        rows="10"
+                        placeholder="Wprowadź tekst"
+                      ></textarea>
                     </label>
-                  </form>
-                    
+                    <div class="checkbox">
+                      <div class="checkbox__control">
+                        <input
+                          type="checkbox"
+                          id="check"
+                          name="check"
+                          value="1"
+                          class="checkbox__input"
+                        />
+                        <label class="checkbox__label" for="check"></label>
+                      </div>
+                    </div>
+                    <!-- <label class="modal-checkbox">
+                      <input
+                        type="checkbox"
+                        name="statute"
+                        value="Oświadczam iż akceptuję Regulamin i Politykę Prywatności."
+                      />
+                      <span
+                        >Oświadczam iż akceptuję<a href="#" class=" "
+                          >Regulamin</a
+                        >
+                        i <a href="#" class=" ">Politykę Prywatności</a>.</span
+                      >
+                    </label> -->
                   </form>
                 </div>
               </div>
