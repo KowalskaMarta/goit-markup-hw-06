@@ -334,8 +334,11 @@ header {
   align-items: center;
 }
 .main-box {
-  background-image: url(../images/main-foto.jpg),
-    linear-gradient(to top, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4));
+  background-image: linear-gradient(
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url(../images/main-foto.jpg);
   background-size: contain;
   align-items: center;
   background-color: #2f303a;
@@ -516,6 +519,7 @@ img {
   padding-bottom: 30px;
 }
 .social-icons-worker {
+  border-radius: 50%;
   height: 44px;
   width: 44px;
   padding-top: 12px;
@@ -528,7 +532,6 @@ img {
 .social-icons-worker:hover,
 .social-icons-worker:focus {
   background-color: var(--lighter-color);
-  border-radius: 50%;
   fill: var(--btn-lighter);
   cursor: pointer;
 }
