@@ -185,7 +185,7 @@ body {
   font-size: 20px;
   line-height: 1.15;
   text-align: center;
-  padding-top: 40px;
+  margin-top: 40px;
 }
 .label-title {
   font-style: normal;
@@ -203,6 +203,7 @@ body {
 }
 .icon-form {
   fill: var(--main-font-color);
+  position: absolute;
 }
 .description-name {
   font-size: 14px;
