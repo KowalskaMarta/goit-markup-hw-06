@@ -173,20 +173,23 @@ body {
 .is-hidden .modal {
   transform: scale(2);
 }
-.form-labels {
+.form-labels > label {
   display: flex;
   flex-direction: column;
-  position: relative;
-  max-width: 448px;
-  margin: 0 auto;
+}
+.form-labels {
+  text-align: left;
 }
 .modal-title {
+  display: flex;
+  flex-direction: column;
   font-weight: 700;
   font-size: 20px;
   line-height: 1.15;
   text-align: center;
   margin-top: 40px;
 }
+
 .label-title {
   font-style: normal;
   font-weight: 400;
@@ -194,16 +197,42 @@ body {
   line-height: 1.17;
   color: var(--description-color);
   padding-top: 12px;
+  display: block;
 }
 .modal-label {
+  position: relative;
+  max-width: 448px;
+  margin: 0 auto;
+}
+.form-input {
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
-  display: inline-flex;
   height: 40px;
+  position: relative;
+  padding-left: 42px;
+}
+.form-input:focus {
+  border-radius: 4px;
+  border-color: var(--lighter-color);
+}
+.icon-form:focus {
+  fill: var(--lighter-color);
 }
 .icon-form {
   fill: var(--main-font-color);
   position: absolute;
+  height: 12px;
+  width: 12px;
+  left: 15px;
+  top: 37px;
+  z-index: 1;
+}
+.kom-input {
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  border-radius: 4px;
+  height: 120px;
+  position: relative;
+  padding-left: 42px;
 }
 .description-name {
   font-size: 14px;
