@@ -268,16 +268,16 @@ body {
   position: absolute;
   fill: var(--color-hover);
 }
-
-/* .checkbox__label::after {
+.checkbox-label::after {
   content: " ";
   position: absolute;
   display: block;
 }
-.checkbox__input:checked + .checkbox__label {
+.checkbox-input:checked + .checkbox-label {
   background-image: url(../images/icons.svg#icon-check);
   background-color: #2196f3;
-} */
+}
+
 .modal-btn {
   display: flex;
   justify-content: center;
