@@ -261,7 +261,7 @@ body {
 .checkbox-label {
   display: block;
   width: 100%;
-  background-color: #ffffff;
+  background-color: var(--btn-lighter);
   border: 1px solid var(--main-font-color);
   border-radius: 2px;
   cursor: pointer;
@@ -279,7 +279,8 @@ body {
 }
 .checkbox-input:checked + .checkbox-label {
   background-image: url(../images/icons.svg#icon-check);
-  background-color: #2196f3;
+  background-color: var(--lighter-color);
+  border: none;
 }
 .checkbox-text {
   font-weight: 400;
