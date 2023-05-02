@@ -766,7 +766,7 @@ img {
 }
 .foot-newsletter {
   margin-top: 12px;
-  padding-left: 78px;
+  margin-left: 78px;
 }
 .newsletter-title {
   font-size: 14px;
@@ -796,6 +796,7 @@ img {
   padding-left: 42px;
   padding-right: 24px;
   padding-bottom: 13px;
+  margin-left: 9px;
   width: 200px;
   display: inline-flex;
   justify-content: space-between;
