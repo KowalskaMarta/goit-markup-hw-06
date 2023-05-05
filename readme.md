@@ -1,1 +1,1 @@
-https://kowalskamarta.github.io/goit-markup-hw-06/
+https://kowalskamarta.github.io/goit-markup-hw-07/
